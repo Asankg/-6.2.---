@@ -1,0 +1,361 @@
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  margin: 0 auto;
+  background-image: url(images/background-snowflakes.jpg);
+  background-position: 0% 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  min-width: 768px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn {
+  display: inline-block; /* Позволяет задавать отступы и размеры */
+  text-align: center;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: 1px solid transparent;
+  text-decoration: none; /* Убирает подчеркивание ссылки */
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+
+h1, h2, h3 {
+  color: rgb(46, 46, 237);
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 600;
+  background-image: url(images/rocket.png);
+  background-size: 250px;
+  background-repeat: repeat;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.wrapper {
+  position: relative;
+  margin: 0 auto;
+  min-width: 768px;
+  max-width: 1200px;
+}
+
+
+.main-nav {
+  position: relative;;
+  font-weight: 700;
+  background-color: wheat;
+  color: black;
+}
+
+.logo {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+header {
+  position: sticky;
+  top: 15px;
+  z-index: 10;
+}
+
+.main-nav__list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-nav__item {
+  padding-top: 14px;
+  padding-bottom: 16px;
+  margin-right: 50px;
+}
+
+.main-nav__item:first-child {
+  margin-left: auto;
+}
+
+.main-nav__item:nth-child(3) {
+  margin-right: auto;
+}
+
+.main-nav__link {
+  line-height: 36px;
+  transition: transform 0.3s ease;
+}
+
+
+
+
+.main-nav__link:hover {
+  color: red;
+  transform: scale(1.2);
+}
+
+.main-nav__link:active {
+  color: yellow;
+}
+
+
+
+.advantages__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantages__item {
+  width: 350px;
+}
+
+.advantages-main__title {
+  font-size: 30px;
+  
+}
+
+.advantages__title {
+  text-align: left;
+}
+
+.advantages__description {
+  line-height: 1.4em;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1.4em;
+}
+
+.advantages__example {
+  display: flex;
+  justify-content: space-around;
+}
+
+.advantages__img{
+  width: 250px;
+}
+
+.video {
+  display: block;
+  margin: auto;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid rgb(0, 30, 255);
+  margin-bottom: 50px;
+  color: #007bff;
+}
+
+tbody {
+  background-image: url(images/b2ee467a-ec89-439b-964d-1eb9936e14cf.jpg);
+  background-position: 0% 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+th, td{
+    border: 2px solid blue;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(240, 8, 8);
+}
+
+tr:hover{
+    background-color: rgb(60, 255, 0);
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.fa-thumbs-up {
+  font-size: 30px;
+}
+
+.fa-thumbs-up:hover {
+  color: blue;
+}
+
+.fa-face-smile {
+ font-size: 30px; 
+}
+
+.fa-face-smile:hover {
+  color: blue;
+}
+
+.fa-circle-check {
+  font-size: 30px;
+}
+
+.fa-circle-check:hover {
+  color: blue;
+}
+
+.about-us {
+  font-family: "Montserrat", sans-serif;
+}
+
+.about-us__title {
+  margin-bottom: 25px;
+}
+
+.about-us__first-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.about-us__text{
+  font-size: 50px;
+  font-weight: bold;
+  color: #152139;
+  line-height: 1,6em;
+  margin-bottom: 20px;
+}
+
+.about-us__text-description {
+  font-size: 20px;
+  line-height: 27px
+}
+
+
+.about-us__subtitle {
+  font-size: 40px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.about-us__second-box {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+/*Страница контакты*/
+
+.contact-info h2 {
+    color: #555;
+}
+
+.contact-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.social {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 20px;
+  text-align: center;
+}
+
+.social-title {
+  margin-bottom: 15px;
+}
+
+.social>div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.social img {
+  max-width: 100%;
+  height: auto;
+  padding: 0;
+}
+
+.form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block; 
+            margin-bottom: 8px;
+            color: #555;
+            font-weight: bold;
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="email"],
+        .form-group input[type="password"],
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box; /* Гарантирует, что padding не увеличивает общую ширину */
+            font-size: 16px;
+            transition: border-color 0.3s; 
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            border-color: #007bff; /* Цвет границы при фокусе */
+            outline: none; /* Убирает стандартное свечение фокуса браузера */
+        }
+
+        /* Стили для кнопки отправки */
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+            margin-bottom: 20px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .form-group.checkbox-group label {
+            display: inline;
+            font-weight: normal;
+        }
